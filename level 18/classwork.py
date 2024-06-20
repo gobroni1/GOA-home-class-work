@@ -10,3 +10,4 @@ for i in range (num1, num2):
     list1.append(i)
 print(list1)
 print(len(list1))
+
