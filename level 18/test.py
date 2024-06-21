@@ -1,4 +1,7 @@
-t = ("tuple1",)
-q = ("orange",)
-t += q
-print(t)
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
