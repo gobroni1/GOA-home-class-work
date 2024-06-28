@@ -18,7 +18,7 @@ print (test6)
 
 # test6 is same as 
 
-if a ==b: 
+if a == b: 
     print(False)
 else: 
     print (True)
