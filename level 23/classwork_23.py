@@ -12,4 +12,8 @@ def d_or_m (a,b,c):
         return b / c
     else:
         return b * c
-print(d_or_m(input("what to do? '/' or '*' "),4,2))
+print(d_or_m(input("what to do? '/' or '*': "),4,2))
+
+#
+#
+
