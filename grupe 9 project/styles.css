@@ -1,0 +1,40 @@
+/* Reset margins and paddings to avoid issues */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+}
+
+nav {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    padding: 10px;
+    color: black;
+    text-decoration: none; 
+}
+
+section {
+    background-color: blueviolet;
+}
