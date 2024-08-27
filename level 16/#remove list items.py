@@ -43,8 +43,15 @@ the_list = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nin
 # cu_list.sort(key = close_to_fif)
 # print(cu_list)
 
-list1 = ["a", "b" , "c"]
-list2 = [1, 2, 3]
+# list1 = ["a", "b" , "c"]
+# list2 = [1, 2, 3]
 
-list1.extend(list2)
-print(list1)
+# list1.extend(list2)
+# print(list1)
+
+
+car = "BMW"
+name = "mate"
+sir_name = "masuradze"
+
+print("I am " + name + " and I like " + car )
