@@ -6,6 +6,12 @@ body {
     color: white;
 }
 
+body a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .container {
     text-align: center;
     padding: 50px;
