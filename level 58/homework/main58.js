@@ -23,6 +23,7 @@ let car = {
 
 // console.log(car.model)
 
+// scopes
 
 // section
 
@@ -32,23 +33,24 @@ let user = {
     isAdmin: true,
     "likes people": true,
 }
+
 // user["likes people"] = false
 // delete user.birthYear;
 // console.log(user)
 // console.log(user.age)
 
-// let key = "likes people";
-// user[key] = false
-// console.log(user["likes people"])  // why does it work only on objects with '' ?
+let key = "likes people";
+user[key] = false
+console.log(user["likes people"])  // why does it work only on objects with '' ?
 
 // section 
-function makeUser(name, age) {
-    return {
-      name: name,
-      age: age,
-    };
-  }
+// function makeUser(name, age) {
+//     return {
+//       name: name,
+//       age: age,
+//     };
+//   }
   
-  let user2 = makeUser("John", 30);
-  console.log(user2.name);
+//   let user2 = makeUser("John", 30);
+//   console.log(user2.name);
 
