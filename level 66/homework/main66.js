@@ -41,18 +41,31 @@
 
 // 4 
 
-function counts(str) {
-    const count = {}; 
+// function counts(str) {
+//     const count = {}; 
 
-    for (let lete of str) {
-        if (lete in count) {
-            count[lete]++;
-        } else {
-            count[lete] = 1;
-        }
-    }
+//     for (let lete of str) {
+//         if (lete in count) {
+//             count[lete]++;
+//         } else {
+//             count[lete] = 1;
+//         }
+//     }
 
-    return count;
-}
+//     return count;
+// }
 
-console.log(counts("stan by aminem, my man, high as hell - this all rimes btw")); 
+// console.log(counts("stan by aminem, my man, high as hell - this all rimes btw")); 
+
+// 5
+
+// function isPalindrome(text) {
+
+//     const cleanedText = text.toLowerCase()
+//     const reversedText = cleanedText.split('').reverse().join('');
+    
+//     return cleanedText === reversedText; 
+// }
+
+
+// console.log(isPalindrome("level")); 
