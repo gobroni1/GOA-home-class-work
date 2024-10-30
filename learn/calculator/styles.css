@@ -1,0 +1,30 @@
+body {
+    height: 97vh;
+    width: 194vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(216, 216, 216);
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-one button {
+    width: 4vh;
+    height: 4vh;
+    background-color: rgb(166, 166, 166);
+}
+
+.row-one button:hover{
+    background-color: gray;
+}
+
+#C {
+    height: 8vh;
+    width: auto;
+}
