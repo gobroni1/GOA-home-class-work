@@ -45,31 +45,31 @@ def calculate_lessons(grupe):
 #   
 
 kid_dic = {
-    "უგულავა": {"სახელი": "ირაკლი","groupe":27, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Nephidra/GOA-Homeworks"},             
-    "კოხრეიძე": {"სახელი": "ლუკა", "groupe":29, "speed":1, "level":0, "parent": "info here", "git hub": "drive link here"},             
-    "სხირტლაძე": {"სახელი": "გიორგი", "groupe":31, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/giorgisxirtladze"},
-    "წულუკიძე": {"სახელი": "მარიამ", "groupe":36, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/mariami2013/Goa-homeworks"},
-    "დავითაშვილი": {"სახელი": "ლუკა", "groupe":36, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/lukadavitashvili/GOA---work"},
-    "შენგელია":{"სახელი": "სანდრო", "groupe":40, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/sandroshengelia123"},
-    "კაკუტაშვილი":{"სახელი": "სანდრო", "groupe":41, "speed":3, "level":0, "parent": "info here", "git hub": "https://github.com/kasandroak/GOA-work"},
-    "ჯაფარიძე": {"სახელი": "ნიკოლოზ", "groupe":42, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/nikolzjafaridze/goa_work"},
-    "მენთეშაშვილ": {"სახელი": "გიორგი", "groupe":42, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/giorgi-mt/goa"},
-    "ჯავახიძე": {"სახელი": "დანიელი", "groupe":42, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/cursed-of-nigtmeres/goal"},
-    "ქიტიაშვილი": {"სახელი": "ლუკა", "groupe":45, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/lukaqitiasvili/goa"},
-    "უძილაური": {"სახელი": "გიორგი", "groupe":46, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/giorgiudzilauri/goa"},
-    "ხარებავა": {"სახელი": "რეზი", "groupe":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/rezikharebava/goa"},
-    "გელხაური": {"სახელი": "გურამი", "groupe":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Guram459/goa"},
-    "ჩიგვინაძე": {"სახელი": "გიორგი", "groupe":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Chigo2009/Goa-Projects"},
-    "ბეგიაშვილი": {"სახელი": "ჯაბა", "groupe":48, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/jababegiashvili/GOA-homeworks"},
-    "ჭიკაძე": {"სახელი": "ლიკა", "groupe":55, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/LikaTchikadze/LikaTchikadze"},
-    "ბარამიძე": {"სახელი": "ლუკა", "groupe":57, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Baramidze-luka/GOA-Home-Works"},
-    "ბუსკივაძე": {"სახელი": "თორნიკე", "groupe":55, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Toko-b/homework"},
-    "ხურციძე": {"სახელი": "საბა", "groupe":52, "speed": 1, "level":0, "paret": "info here", "git hub": "https://github.com/TheSab1a/Homework-lvl-2"},
-    "ყურაშვილი": {"სახელი": "საბა", "groupe":56, "speed":2, "level":0, "paret": "info here", "git hub": "https://github.com/severrir/the_one"},
-    "წოწკოლაური": {"სახელი": "ალექსანდრე", "groupe":57, "speed":2, "level":0, "paret": "info here", "git hub": "https://github.com/aleqsandrewowkolauri/goa_work"},
+    "უგულავა": {"სახელი": "ირაკლი","group":27, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Nephidra/GOA-Homeworks"},             
+    "კოხრეიძე": {"სახელი": "ლუკა", "group":29, "speed":1, "level":0, "parent": "info here", "git hub": "drive link here"},             
+    "სხირტლაძე": {"სახელი": "გიორგი", "group":31, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/giorgisxirtladze"},
+    "წულუკიძე": {"სახელი": "მარიამ", "group":36, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/mariami2013/Goa-homeworks"},
+    "დავითაშვილი": {"სახელი": "ლუკა", "group":36, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/lukadavitashvili/GOA---work"},
+    "შენგელია":{"სახელი": "სანდრო", "group":40, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/sandroshengelia123"},
+    "კაკუტაშვილი":{"სახელი": "სანდრო", "group":41, "speed":3, "level":0, "parent": "info here", "git hub": "https://github.com/kasandroak/GOA-work"},
+    "ჯაფარიძე": {"სახელი": "ნიკოლოზ", "group":42, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/nikolzjafaridze/goa_work"},
+    "მენთეშაშვილი": {"სახელი": "გიორგი", "group":42, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/giorgi-mt/goa"},
+    "ჯავახიძე": {"სახელი": "დანიელი", "group":42, "speed":1, "level":0, "parent": "info here", "git hub": "https://github.com/cursed-of-nigtmeres/goal"},
+    "ქიტიაშვილი": {"სახელი": "ლუკა", "group":45, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/lukaqitiasvili/goa"},
+    "უძილაური": {"სახელი": "გიორგი", "group":46, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/giorgiudzilauri/goa"},
+    "ხარებავა": {"სახელი": "რეზი", "group":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/rezikharebava/goa"},
+    "გელხაური": {"სახელი": "გურამი", "group":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Guram459/goa"},
+    "ჩიგვინაძე": {"სახელი": "გიორგი", "group":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Chigo2009/Goa-Projects"},
+    "ბეგიაშვილი": {"სახელი": "ჯაბა", "group":48, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/jababegiashvili/GOA-homeworks"},
+    "ჭიკაძე": {"სახელი": "ლიკა", "group":55, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/LikaTchikadze/LikaTchikadze"},
+    "ბარამიძე": {"სახელი": "ლუკა", "group":57, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Baramidze-luka/GOA-Home-Works"},
+    "ბუსკივაძე": {"სახელი": "თორნიკე", "group":55, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/Toko-b/homework"},
+    "ხურციძე": {"სახელი": "საბა", "group":52, "speed": 1, "level":0, "paret": "info here", "git hub": "https://github.com/TheSab1a/Homework-lvl-2"},
+    "ყურაშვილი": {"სახელი": "საბა", "group":56, "speed":2, "level":0, "paret": "info here", "git hub": "https://github.com/severrir/the_one"},
+    "წოწკოლაური": {"სახელი": "ალექსანდრე", "group":57, "speed":2, "level":0, "paret": "info here", "git hub": "https://github.com/aleqsandrewowkolauri/goa_work"},
     "დევდარიანი":{"სახელი": "გეგა", "group": 15, "speed":2, "level":0, "parent": "info here", "git hub":"https://github.com/geksha"},
     "მიქაბერიძე":{"სახელი": "მარიამი", "group":34, "speed":3, "level":0, "parent": "info here", "git hub": "https://github.com/Mariamooo0"},
-    "გურიელი":{"სახელი": "გიორგი", "group":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/GiorgiGurieli/Giorgi-gurieli"},
+    "გურიელი":{"სახელი": "გიორგი", "group":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/GiorgiGurieli/giorgigurieli"},
     
 }   
 
@@ -77,7 +77,7 @@ key = input("here: ")
 while key != "done" and key != "მორჩა":
     if key in kid_dic:
         kid_info = kid_dic[key]
-        grupe = kid_info["groupe"]
+        grupe = kid_info["group"]
                 
         lesson = calculate_lessons(grupe)
                 
