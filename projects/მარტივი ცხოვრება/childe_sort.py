@@ -87,7 +87,7 @@ while key != "done" and key != "მორჩა":
     else: 
         print("something went wrong")
 
-    if key in ["speed", "grupe", "level", "parent", "git hub"]:
+    if key in ["speed", "group", "level", "parent", "git hub"]:
         for kid, info in kid_dic.items():
             print(f"{kid}: {info[key]}")
 
