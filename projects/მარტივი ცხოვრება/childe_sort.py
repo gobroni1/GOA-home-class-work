@@ -70,6 +70,7 @@ kid_dic = {
     "დევდარიანი":{"სახელი": "გეგა", "group": 15, "speed":2, "level":0, "parent": "info here", "git hub":"https://github.com/geksha"},
     "მიქაბერიძე":{"სახელი": "მარიამი", "group":34, "speed":3, "level":0, "parent": "info here", "git hub": "https://github.com/Mariamooo0"},
     "გურიელი":{"სახელი": "გიორგი", "group":47, "speed":2, "level":0, "parent": "info here", "git hub": "https://github.com/GiorgiGurieli/giorgigurieli"},
+    "შავაძე":{"სახელი": "გიორგი", "group":27, "speed":2, "level":0, "parent": "info here", "git hub": ""}
     
 }   
 
@@ -110,3 +111,5 @@ while key != "done" and key != "მორჩა":
         print(f"აღრიცხულია {len(kid_dic)} ბავშვი")
 
     key = input("here: ")  
+
+    
