@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    background-color: #ec8fff3e;
+
+    width: 100%;
+    height: 100vh;
+
+    color: #e35ffd70;
+    font-family: Arial, sans-serif;
+}
+
+.side-panel {
+    width: 20%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 15px;
+    background-color: #b218ff99;
+    padding: 20px;
+}
+
+
+.main-screen {
+    flex: 1; 
+    
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+
+    padding: 20px;
+    gap: 20px; 
+
+    overflow-x: auto; 
+}
+
+
+button {
+    width: 150px;
+    height: 50px;
+
+    margin: 10px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #e35ffd70;
+    color: white;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c81ffd;
+}
+
+
+.created-div {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.created-div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* pop up box */
+.modal, .modal2 {
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.open, .modal2.open2 {
+    opacity: 1;
+    z-index: 999;
+}
+
+.modal-inner, .modal2-inner{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 380px;
+}
+
+input[type="text"], input[type="file"] {
+    width: 60%;
+    height: 30px;
+
+    border-radius: 8px;
+
+    margin: 10px;
+}
+
+input[type="text"], input[type="file"]:focus {
+    border-color: #c81ffd;
+}
+/* pop up box */
+
+
+#filter1 {
+    height: 15px;
+    width: 15px;
+}
