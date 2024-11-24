@@ -279,3 +279,5 @@ while True:
     else:
         AI(board, turne, lastT)
         turne += 1     
+        
+        

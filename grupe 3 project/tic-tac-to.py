@@ -202,7 +202,6 @@ def AI (game, trs, lastX):
     curent = trs
     index = calculate_move(board)
     index2 = corner_isX(board)
-    print(index)
     if index is not None and game[index] != "*": 
         game[index] = "*"
     
@@ -256,7 +255,8 @@ def AI (game, trs, lastX):
 while True: 
     moves = [0,1,2,3,4,5,6,7,8]
     print("\n")
-    print_board(board)
+    if turne == 0 or turne%2 == 0:
+        print_board(board)
     has_winner, message = win_or_not(board)
     if has_winner:
         print(message)
