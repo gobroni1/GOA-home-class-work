@@ -280,4 +280,4 @@ while True:
         AI(board, turne, lastT)
         turne += 1     
 
-print("change")
+#change

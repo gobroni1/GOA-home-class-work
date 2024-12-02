@@ -1,9 +1,3 @@
-
-
-
-
-
-
 // pop up box
 let theTitle;
 let selectedDiv = null;
@@ -73,29 +67,29 @@ openBtn.addEventListener("click", ()=> {
 });
 
 closeBtn2.addEventListener("click", () => {
-
     modal2.classList.remove("open2");
-    console.log("this should post once per click");
     let taskName = document.getElementById("taskname").value;
-    
-    
-    if (selectedDiv && taskName)  {
-        
+
+    if (selectedDiv && taskName) {
         const tasks = selectedDiv.querySelector("ul");
+        const currentTaskCount = tasks.childElementCount;
+
+        if (currentTaskCount >= 19) {
+            alert("You can only add up to 19 tasks per event!");
+            return; 
+        }
+
         let newTask = document.createElement("li");
         newTask.textContent = taskName;
         newTask.style.color = "white";
         tasks.appendChild(newTask);
 
-       
-
         newTask.addEventListener("click", () => {
             newTask.style.textDecoration = newTask.style.textDecoration === "line-through" ? "none" : "line-through";
             newTask.style.color = newTask.style.color === "red" ? "white" : "red";
             newTask.style.listStyleType = newTask.style.listStyleType === "none" ? "disc" : "none";
-
         });
-    }else {
+    } else {
         console.error("closeModal2 element not found.");
     }
 });

@@ -20,7 +20,6 @@ body {
 .side-panel {
     width: 20%;
     height: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,12 +27,12 @@ body {
     border-radius: 15px;
     background-color: #b218ff99;
     padding: 20px;
-}
 
+    transition: all 0.3s ease-in-out;
+}
 
 .main-screen {
     flex: 1; 
-    
     display: flex;
     flex-direction: row; 
     flex-wrap: wrap; 
@@ -44,12 +43,11 @@ body {
     overflow-x: auto; 
 }
 
-
 button {
-    width: 150px;
-    height: 50px;
+    width: 50%;
+    height: 5%;
 
-    margin: 10px;
+    margin: 1%;
 
     border: none;
     border-radius: 8px;
@@ -68,7 +66,6 @@ button:hover {
     background-color: #c81ffd;
 }
 
-
 .created-div {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -78,7 +75,6 @@ button:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
-
 
 /* pop up box */
 .modal, .modal2 {
@@ -102,7 +98,7 @@ button:hover {
     z-index: 999;
 }
 
-.modal-inner, .modal2-inner{
+.modal-inner, .modal2-inner {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -125,8 +121,42 @@ input[type="text"], input[type="file"]:focus {
 }
 /* pop up box */
 
-
 #filter1 {
     height: 15px;
     width: 15px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    .side-panel {
+        width: 100%;
+        height: auto;
+        flex-direction: column; 
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        border-radius: 0;
+    }
+
+    .main-screen {
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    button {
+        width: 80%; 
+        font-size: 14px; 
+        height: 50px; 
+        padding: 12px; 
+    }
+}
+
+h2, li {
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
 }
