@@ -10,17 +10,24 @@
 
     <div class="side-panel" id="side-panel">
         <!-- Control panel content can go here -->
-        <button id="create-event" type="button">Create Event Div</button>
+        <button id="create-event" type="button">New</button>
 
-        <div class="checkbox-container">
-            <label for="option1">filter done tasks</label>
-            <input type="checkbox" id="filter1" />
+        <button id="deletb">Delet</button>
+
+        <div class="dropdown">
+            <button id="dropdownButton">Filters</button>
+            <div class="dropdown-content" id="dropdownContent">
+              <div class="checkbox-container">
+                <input type="checkbox" id="filter1">
+                <label for="option1">Complit</label>
+              </div>
+              <div class="checkbox-container">
+                <input type="checkbox" id="filter2">
+                <label for="option2">Incomplit</label>
+              </div>
+            </div>
         </div>
 
-        <div class="checkbox-container">
-            <label for="option2">filter left tasks</label>
-            <input type="checkbox" id="filter2" />
-        </div>
     </div>
 
     <div class="main-screen" id="main-screen">
@@ -44,7 +51,7 @@
             <h2>enter a new task</h2>
             <input type="text" id="taskname">
             <button id="closeModal2">save</button>
-        </div>
+        </div>  
     </div>
     <!-- pop up box for tasks -->
     <script src="main.js"></script>
